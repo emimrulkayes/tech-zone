@@ -1,0 +1,56 @@
+.header-inner {
+    background-color: #0ea5e9;
+
+    .nav-center {
+        border: 1px solid #c8c8c873;
+        border-radius: 5px;
+        background: transparent;
+
+        .nav-select {
+            background: #0ea5e9;
+            border: none;
+            color: whitesmoke;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .nav-search-area {
+            background: transparent;
+            border: none;
+
+            &:focus {
+                outline: none;
+            }
+
+            .nav-input {
+
+                border-left: 1px solid #c8c8c873;
+                
+                input {
+                    background: transparent;
+                    border: none;
+                    color: whitesmoke;
+        
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+            .search-btn {
+                background: transparent;
+                border: none;
+                border-radius: 5px;
+                border-left: 1px solid #c8c8c873;
+                color: whitesmoke;
+
+                &:hover {
+                    background-color: #c8c8c873;
+                    color : whitesmoke;
+                }
+            }
+        }
+    }
+}
